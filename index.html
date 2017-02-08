@@ -1,0 +1,22 @@
+<html> 
+<head> 
+<script> 
+
+function changeImage()
+{
+var img = document.getElementById("image");
+img.src="2.jpg";
+return false;
+}
+
+</script>
+
+</head>
+<body>
+<h2> Reload page to start over</h2>
+<img id="image" src="1.jpg" />
+<div><button id="clickme" onclick="changeImage();" style="
+    margin-left: 10px;
+">Click to color Minnie!</button></div>
+</body>
+</html>
